@@ -1,0 +1,42 @@
+.column{
+	margin-bottom: 10px;
+}
+
+.add {
+   /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+   
+}
+
+.form-group-modal{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.form-group-modal-2{
+	padding-right: 200px;
+	padding-left: 200px;
+	position: relative;
+}
+/*For multiple image upload style for future*/
+.column-modal{
+	margin-left:58px;
+	margin-right: 20px;
+}
+.close-preview{
+	position: absolute;
+    top: -8px;
+    right: 197px;
+}
+.btn.btn-clear-new{
+	background: rgba(0, 0, 0, 0.7);
+	color: #eeefff;
+}
+
+
+
