@@ -2,7 +2,9 @@ import React,{Component} from 'react';
 import {connect} from 'react-redux';
 import * as actions from '../../actions/timeline';
 import Loading from '../../components/utils/loading';
-import Post from './post';
+import AddPostButton from './addpostbutton';
+import Eachpost from './eachpost';
+import Modal from './modal';
 
 
 class Timeline extends Component{
@@ -14,7 +16,9 @@ class Timeline extends Component{
 		//console.log(isFetching,isFetched);
 		return (
 			<div className="container">
-				{!isFetching?(!isFetched?" ":<Post data={data}/>):(<Loading/>)}
+				{!isFetching?(!isFetched?" ":<Eachpost data={data}/>):(<Loading/>)}
+				<Modal/>
+				<AddPostButton/>
 			</div>
 		);
 	}

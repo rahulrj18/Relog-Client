@@ -14,7 +14,7 @@ class AddPostButton extends Component{
 				<button 
 				className="btn btn-lg btn-action circle" 
 				onClick={this.displayUploadForm.bind(this)}>
-				<i className="icon icon-plus"></i>
+				<i className="fa fa-plus" aria-hidden="true"></i>
 				</button>
 			</div>
 		);

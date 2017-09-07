@@ -18,7 +18,11 @@ var config = {
 				include:APP_DIR,
 				loader:'babel-loader',
 				exclude:'/node_modules/',
-			}
+			},
+			{
+		        test: /masonry|imagesloaded|fizzy\-ui\-utils|desandro\-|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
+		        loader: 'imports-loader?define=>false&this=>window'
+		    }
 		]
 	},
 	devServer: {

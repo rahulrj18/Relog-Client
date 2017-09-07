@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import Dropzone from 'react-dropzone';
 import {connect} from 'react-redux';
 import * as actions from '../../actions/timeline';
-import DragDrop from './dragdrop';
 
 class FileUpload extends Component {
 	close(index){
