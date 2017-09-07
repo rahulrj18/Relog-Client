@@ -68,9 +68,4 @@ function mapStateToProps(state){
 export default connect(mapStateToProps,actions)(FileUpload);
 
 
-/*
-<div className="input-group">
-                    <i className="icon icon-photo"/>
-                    <div className="form-input input-lg">Drop file to upload</div>
-                </div>
-*/
+
